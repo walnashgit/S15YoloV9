@@ -1,0 +1,6 @@
+train: tabla/train/images
+val: tabla/valid/images
+test: tabla/test/images
+
+nc: 1
+names: ['tabla']
