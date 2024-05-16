@@ -56,8 +56,10 @@ Note the cfg file should be based on the model weight being used. Adjust batch s
 from IPython.display import Image
 Image(filename=f"/content/S15YoloV9/runs/train/exp/val_batch0_pred.jpg", width=1000)
 ```
+![image](https://github.com/walnashgit/S15YoloV9/assets/73463300/6aa2edb7-f521-464e-b499-e722af2941a3)
 
-### To run trained model on validation or anyother test dataset:
+
+### To run trained model on validation or any other test dataset:
 ```
 !python detect.py \
 --img 1280 --conf 0.1 --device 0 \
